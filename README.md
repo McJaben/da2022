@@ -2,7 +2,7 @@
 En este repositorio subí las clases más importantes de la materia Desarrollo de Algoritmos de la Licenciatura en Ciencias de la Computación de la Universidad Nacional del Comahue.
 Entre las clases, se encuentra el TP final de la materia, necesario para aprobar la cursada de ésta.
 
-# TP Final: Estadios mundialistas - Enunciado
+# Enunciado del TP Final: Estadios mundialistas
 
 Se necesita analizar información de un grupo de estadios de fútbol. Para ello, desarrolle un programa que permita realizar los siguientes puntos:
 ## 1. TDA. Realizar el UML de un estadio. 
@@ -34,7 +34,7 @@ Ejemplo:
 Estadio Ciudad de la Educación = Stdcdddldccn
 Lusail = Lsl
 
-# · Resolución - Informe
+# Resolución del TP Final - Informe
 
 ## INTRODUCCIÓN
 
