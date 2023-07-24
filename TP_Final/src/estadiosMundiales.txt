@@ -1,0 +1,100 @@
+1@Estadio Centenario@Montevideo@90000@Uruguay 1930
+2@Estadio Gran Parque Central@Montevideo@20000@Uruguay 1930
+3@Estadio Pocitos@Montevideo@1000@Uruguay 1930
+4@Stadio del Littoriale@Bologna@38000@Italia 1934
+5@Stadio Giovanni Berta@Florencia@40000@Italia 1934
+6@Stadio del Littorio@Trieste@52000@Italia 1934
+7@Stadio Calcistico San Siro@Milán@35000@Italia 1934
+8@Parc des Princes@Paris@49500@Francia 1938
+9@Stade Vélodrome@Marsella@60000@Francia 1938
+10@Parc Lescure@Burdeos@35000@Francia 1938
+11@Stade Chapou@Toulouse@22000@Francia 1938
+12@Estádio Independência@Belo Horizonte@25000@Brasil 1950
+13@Estadio Durival de Britto e Silva@Curitiba@12000@Brasil 1950
+14@Estadio de los Eucaliptos@Porto Alegre@7000@Brasil 1950
+15@Estadio Ilha do Retiro@Recife@60000@Brasil 1950
+16@Maracaná@Rio de Janeiro@180000@Brasil 1950
+17@Estadio Pacaembú@São Paulo@45000@Brasil 1950
+18@St. Jakob Park@Basilea@33400@Suiza 1954
+19@Stade des Charmilles@Ginebra@25000@Suiza 1954
+20@Stade Olympique de la Pontaise@Lausana@26000@Suiza 1954
+21@Stadio Comunale di Cornaredo@Lugano@36400@Suiza 1954
+22@Hardturm-Stadion@Zurich@27500@Suiza 1954
+23@Estadio Iddrotsparken de Norrköping@Norrköping@21000@Suecia 1958
+24@Estadio Eyravallen@Örebro@12000@Suecia 1958
+25@Estadio Järnvallen@Sandviken@21000@Suecia 1958
+26@Estadio Råsunda@Solna@37000@Suecia 1958
+27@Estadio Rimnersvallen@Uddevalla@17778@Suecia 1958
+28@Estadio Carlos Dittborn@Arica@17786@Chile 1962
+29@Estadio de la Braden Copper Co.@Rancagua@10342@Chile 1962
+30@Estadio Nacional de Chile@Santiago@77000@Chile 1962
+31@Estadio Sausalito@Viña del Mar@19000@Chile 1962
+32@Wembley Stadium@Londres@100000@Inglaterra 1966
+33@White City Stadium@Londres@50000@Inglaterra 1966
+34@Old Trafford@Manchester@62000@Inglaterra 1966
+35@Hillsborough Stadium@Sheffield@55000@Inglaterra 1966
+36@Roker Park@Sunderland@75118@Inglaterra 1966
+37@Estadio Jalisco@Guadalajara@60000@México 1970
+38@Estadio Azteca@Ciudad de México@110000@México 1970
+39@Estadio Cuauhtémoc@Puebla de Zaragoza@40000@México 1970
+40@Estadio Nemesio Díez@Toluca de Lerdo@27045@México 1970
+41@Estadio Olímpico de Berlín@Berlín@68600@Alemania Federal 1974
+42@Westfalenstadion@Dortmund@44417@Alemania Federal 1974
+43@Estadio Olímpico de Múnich@Múnich@76243@Alemania Federal 1974
+44@Neckarstadion@Stuttgart@53218@Alemania Federal 1974
+45@Volksparkstadion@Hamburgo@55000@Alemania Federal 1974
+46@José Amalfitani@Buenos Aires@49318@Argentina 1978
+47@El monumental@Buenos Aires@76609@Argentina 1978
+48@Mundialista@Mar del Plata@42563@Argentina 1978
+49@Ciudad de Mendoza@Mendoza@47542@Argentina 1978
+50@Mario Alberto Kempes@Córdoba@46986@Argentina 1978
+51@Gigante de Arroyito@Rosario@34954@Argentina 1978
+52@Camp Nou@Barcelona@93053@España 1982
+53@San Mamés@Bilbao@40000@España 1982
+54@Santiago Bernabéu@Madrid@90800@España 1982
+55@Vicente Calderón@Madrid@57000@España 1982
+56@Ramón Sánchez-Pizjuán@Sevilla@70500@España 1982
+57@Estadio Jalisco@Guadalajara@56000@México 1986
+58@Estadio Tecnológico@Monterrey@34000@México 1986
+59@Estadio Corregidora@Querétaro@40000@México 1986
+60@Estadio Nemesio Díez@Toluca de Lerdo@33000@México 1986
+61@Estadio Olímpico de Roma@Roma@80258@Italia 1990
+62@Estadio San Paolo@Nápoles@74090@Italia 1990
+63@Stadio Calcistico San Siro@Milán@76398@Italia 1990
+64@Stadio delle Alpi@Turín@67411@Italia 1990
+65@Soldier Field@Chicago@67000@Estados Unidos 1994
+66@Pontiac Silverdome@Detroit@80000@Estados Unidos 1994
+67@Rose Bowl Stadium@Los Ángeles@91000@Estados Unidos 1994
+67@Giants Stadium@Nueva York@77000@Estados Unidos 1994
+69@Stanford Stadium@San Francisco@80000@Estados Unidos 1994
+70@Robert F. Kennedy Memorial Stadium@Washington@56000@Estados Unidos 1994
+71@Parc Lescure@Burdeos@35200@Francia 1998
+72@Parc des Princes@París@49500@Francia 1998
+73@Estadio de Francia@Saint-Dennis@80000@Francia 1998
+74@Gerland@Lyon@44000@Francia 1998
+75@Asiad de Busan@Busan@55982@Corea-Japón 2002
+76@Estadio Mundialista de Seúl@Seúl@63961@Corea-Japón 2002
+77@Estadio Mundialista de Ulsan@Ulsan@43550@Corea-Japón 2002
+78@Gran Ojo de Oita@Ōita@49000@Corea-Japón 2002
+79@Saitama@Saitama@63000@Corea-Japón 2002
+80@Estadio Internacional de Yokohama@Yokohama@70000@Corea-Japón 2002
+81@Veltins-Arena@Gelsenkirchen@53804@Alemania 2006
+82@Estadio Olímpico de Berlín@Berlín@76176@Alemania 2006
+83@Signal Iduna Park@Dortmund@66981@Alemania 2006
+84@Allianz Arena@Múnich@66016@Alemania 2006
+85@Green Point@Ciudad del Cabo@64100@Sudáfrica 2010
+86@Ellis Park@Johannesburgo@55686@Sudáfrica 2010
+87@Soccer Citty@Johannesburgo@94700@Sudáfrica 2010
+88@Moses Mabhida@Durban@62760@Sudáfrica 2010
+89@Mbombela@Nelspruit@40929@Sudáfrica 2010
+90@Maracanã@Rio de Janeiro@80000@Brasil 2014
+91@Arena Corinthians@São Paulo@65000@Brasil 2014
+92@Mané Garrincha@Brasilia@72800@Brasil 2014
+93@Rostov Arena@Rostov del Don@43702@Rusia 2018
+94@Spartak Stadium@Moscú@47000@Rusia 2018
+95@Estadio Krestovski@San Petersburgo@48000@Rusia 2018
+96@Estadio Olímpico Luzhnikí@Moscú@81300@Rusia 2018
+97@Lusail@Lusail@80000@Catar 2022
+98@Al Bayt@Jor@60000@Catar 2022
+99@Áhmad bin Ali@Rayán@60000@Catar 2022
+100@Estadio Al Thumama@Doha@40000@Catar 2022
