@@ -73,7 +73,7 @@ Con el fin de lograr esto, los módulos implementados son: `generarAbreviatura()
 
 Este tipo de dato abstracto se creó para almacenar información de un Estadio, el cual está formado por variables de distinto tipo, como se puede ver a continuación en el UML.
 
-### UML de la clase Estadio {#uml-de-la-clase-estadio}
+### UML de la clase Estadio
 
   <tr>
    <td>**Estadio**
