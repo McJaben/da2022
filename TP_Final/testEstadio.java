@@ -1,3 +1,4 @@
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -119,12 +120,13 @@ public class testEstadio {
     }
 
     public static void cargarArreglo(Estadio[] arreglo) {
-        File f = new File("src/estadiosMundiales.txt");
+        File f = new File("TP_Final/src/estadiosMundiales.txt");
         /*
          * Asumo que van a correr el programa desde un IDE y que el archivo está
          * dentro de la carpeta "TPFinal" que contiene el .java
+         * En caso de utilizar en Windows, cambiar los "/" por "\\".
          * En caso de dar una ruta En Linux, macOS y otros Unix-like utilizar "/" en
-         * lugar de "\\" (que se usa en Windows).
+         * lugar de "\\".
          * 
          * Creo un objeto File llamado f con mi archivo de texto
          */
@@ -140,26 +142,27 @@ public class testEstadio {
                      * por parámetro.
                      */
                     String registro = scF.nextLine(); // scF por scanFile
-                    // String que guarda la linea actual del archivo de texto
-                    Scanner scR = new Scanner(registro); // scR por scanRegistro
-                    // Scanner para el String registro
-                    scR.useDelimiter("@"); // Delimitador para el Scanner del registro
-                    // Declaro las variables que voy a usar para crear el obj Estadio
-                    int numero, capacidad;
-                    String nombre, ciudad, mundial;
-                    /*
-                     * Almaceno los valores de cada campo de datos separado por '@'
-                     * en las variables correspondientes al tipo de dato que necesito
-                     */
-                    numero = scR.nextInt();
-                    nombre = scR.next();
-                    ciudad = scR.next();
-                    capacidad = scR.nextInt();
-                    mundial = scR.next();
-                    // Creo el objeto Estadio st con las variables correspondientes
-                    Estadio st = new Estadio(numero, nombre, ciudad, capacidad, mundial);
-                    // Cargo el objeto actual al arreglo
-                    arreglo[i] = st; // st de "stadium"
+                    try (// String que guarda la linea actual del archivo de texto
+                            Scanner scR = new Scanner(registro)) {
+                        // Scanner para el String registro
+                        scR.useDelimiter("@"); // Delimitador para el Scanner del registro
+                        // Declaro las variables que voy a usar para crear el obj Estadio
+                        int numero, capacidad;
+                        String nombre, ciudad, mundial;
+                        /*
+                         * Almaceno los valores de cada campo de datos separado por '@'
+                         * en las variables correspondientes al tipo de dato que necesito
+                         */
+                        numero = scR.nextInt();
+                        nombre = scR.next();
+                        ciudad = scR.next();
+                        capacidad = scR.nextInt();
+                        mundial = scR.next();
+                        // Creo el objeto Estadio st con las variables correspondientes
+                        Estadio st = new Estadio(numero, nombre, ciudad, capacidad, mundial);
+                        // Cargo el objeto actual al arreglo
+                        arreglo[i] = st; // st de "stadium"
+                    }
                     i++;
                 }
             }
@@ -173,7 +176,7 @@ public class testEstadio {
     public static void mostrarArreglo(Estadio[] arreglo) {
         System.out.println("Arreglo de estadios:");
         // Uso el bucle for mejorado para que sea más legible y porque no tengo
-        // que hacer modificaciones éste recorre el arreglo completo
+        // que hacer modificaciones. Éste recorre el arreglo completo
         for (Estadio iterador : arreglo) {
             System.out.println(iterador.toString());
         }
@@ -181,10 +184,9 @@ public class testEstadio {
 
     public static Estadio[] copiarArreglo(Estadio[] arreglo) {
         // Copia el arreglo de estadios pasado por parámetro
-        // Corregir error de copia, dado que en realidad apuntan a los mismos estadios
         Estadio[] newArray = new Estadio[arreglo.length];
         for (int i = 0; i < newArray.length; i++) {
-            // Primero actualizo variables para cada
+            // Primero defino variables para cada atributo del objeto estadio actual
             int numero = arreglo[i].getNumero();
             String nombre = arreglo[i].getNombre();
             String ciudad = arreglo[i].getCiudad();
