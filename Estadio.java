@@ -3,7 +3,7 @@ package TPFinal;
 import java.text.Normalizer;
 
 /**
- * @author Benjamín Morales
+ * @author Benjamín Morales <ben.morales99 at protonmail.com>
  */
 public class Estadio {
 

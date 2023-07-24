@@ -177,6 +177,8 @@ public class testEstadio {
     }
 
     public static Estadio[] copiarArreglo(Estadio[] arreglo) {
+        // Copia el arreglo de estadios pasado por parámetro
+        // Corregir error de copia, dado que en realidad apuntan a los mismos estadios
         Estadio[] newArray = new Estadio[arreglo.length];
         for (int i = 0; i < newArray.length; i++) {
             newArray[i] = arreglo[i];
