@@ -75,67 +75,34 @@ Este tipo de dato abstracto se creó para almacenar información de un Estadio, 
 
 ### UML de la clase Estadio
 
-  <tr>
-   <td>**Estadio**
+|         Estadio        |
+|------------------------|
+|(***Atributos***)           |
+|<-> int número (* según orden *)|
+|<-> String nombre|
+|<-> String ciudad|
+|<-> int capacidad (* cantidad máxima de espectadores *)|
+|<-> int mundial (* Mundial que se disputó*)|
+|(***Constructores***)       |
+|<+> Estadio(int numero, String nombre, String ciudad, int capacidad, String mundial) (* pre-condiciones: numero>0, nombre ≠ null, ciudad ≠ null, capacidad >0,  mundial ≠ null *)|
+|<+> Estadio(String nombre, String ciudad) (* pre-condiciones: nombre ≠ null, ciudad ≠ null *)|
+|(***Observadores***)|
+|<+> getNumero() : int|
+|<+> getNombre() : String|
+|<+> getCiudad() : String|
+|<+> getCapacidad() : int|
+|<+> getMundial() : String|
+|(***Modificadores***)|
+|<+> setNumero(int numero) : void (* parámetro ≠ 0 *)|
+|<+> setCapacidad(int capacidad) : void (* parámetro ≠ 0 *)|
+|<+> setMundial(String mundial) : void (* parámetro ≠ null *)|
+|(***Propias del tipo***)|
+|<+> toString() : String|
+|<+> equals(Estadio otro) : boolean |
+|<+> compareTo(Estadio otro) : int |
+|<+> ordenLexic(Estadio st) : int|
+|<-> normalizarCadena(String cadena) : String|
 
-   </td>
-  </tr>
-  <tr>
-   <td>**(*Atributos*)**
-
-&lt;-> int número _(* según orden *)_
-
-&lt;-> String nombre
-
-&lt;-> String ciudad
-
-&lt;-> int capacidad _(* cantidad máxima de espectadores *)_
-
-&lt;-> int mundial _(* Mundial que se disputó*)_
-
-   </td>
-  </tr>
-  <tr>
-   <td>**(*Constructores*)**
-
-&lt;+> Estadio(int numero, String nombre, String ciudad, int capacidad, String mundial) **_(* pre-condiciones: numero>0, nombre ≠ null, ciudad ≠ null, capacidad >0,  mundial ≠ null *) _**
-
-&lt;+> Estadio(String nombre, String ciudad) **_(* pre-condiciones: nombre ≠ null, ciudad ≠ null *)_**
-
-**(*Observadores*)**
-
-&lt;+> getNumero() : int
-
-&lt;+> getNombre() : String
-
-&lt;+> getCiudad() : String
-
-&lt;+> getCapacidad() : int
-
-&lt;+> getMundial() : String
-
-**(*Modificadores*)**
-
-&lt;+> setNumero(int numero) : void _(* parámetro ≠ 0 *)_
-
-&lt;+> setCapacidad(int capacidad) : void _(* parámetro ≠ 0 *)_
-
-&lt;+> setMundial(String mundial) : void _(* parámetro ≠ null *)_
-
-**(*Propias del tipo*)**
-
-&lt;+> toString() : String
-
-&lt;+> equals(Estadio otro) : boolean 
-
-&lt;+> compareTo(Estadio otro) : int 
-
-&lt;+> ordenLexic(Estadio st) : int
-
-&lt;-> normalizarCadena(String cadena) : String
-
-   </td>
-  </tr>
 
 ### Métodos de la clase Estadio
 
